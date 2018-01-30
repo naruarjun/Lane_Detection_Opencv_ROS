@@ -1,5 +1,5 @@
 # Lane_Detection_Opencv_ROS
-The project detects lanes using basic image processing and than publishes the frames with lanes drawn across a topic called "chatter" and the coefficients of the lines depicting the lanes are published on a topic called "coeffs"
+The project publishes frames of a video on the topic chatter, detects lanes using basic image processing and than the coefficients of the lines depicting the lanes are published on a topic called "coeffs"
 
 simpub.py - This is the file used to publish the frames of the video on the topic "chatter"
 
